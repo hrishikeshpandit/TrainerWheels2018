@@ -37,16 +37,33 @@ a {
     background-color: #dddd;
 }
 
-
-
-#block1{
-	background-image: url("img/carrothalwa.jpeg");
-	width:500px;
-	height:540px;
+#block2 {
+	background-image: url("img/gulabj.jpeg");
+	width:200px;
+	height:210px;
 	background-repeat: round;
-	color:blue;
+	
 }
-.hl {
+
+#block1 {
+	background-image: url("img/carrothalwa.jpeg");
+	width:200px;
+	height:210px;
+	background-repeat: round;
+	color:rgb(122,122,32);
+}
+.hl .hl1 {
 	text-align: center;
-	color:blue;
+	color:white;
+}
+.fa{
+	
+	color:green;
+}
+#rating1 #rating2{
+	text-align: center;
+}
+.checked{
+	color:red;
+}
 }
