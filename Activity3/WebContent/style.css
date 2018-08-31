@@ -38,7 +38,7 @@ a {
 }
 
 #block2 {
-	background-image: url("img/gulabj.jpeg");
+	background-image: url("img/gulabj.jpg");
 	width:200px;
 	height:210px;
 	background-repeat: round;
@@ -46,11 +46,14 @@ a {
 }
 
 #block1 {
+	position:relative;
 	background-image: url("img/carrothalwa.jpeg");
 	width:200px;
 	height:210px;
 	background-repeat: round;
 	color:rgb(122,122,32);
+	
+    
 }
 .hl .hl1 {
 	text-align: center;
