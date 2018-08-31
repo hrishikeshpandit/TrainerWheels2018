@@ -1,0 +1,52 @@
+h1{
+	color: red;
+	font-size: 24px;
+	
+}
+p{
+	color:yellow;
+	text-align:centre;
+	font-size: 3em;
+}
+#brownie{
+	color:white;
+	background-color: black;
+	font-size:4em;
+}
+body#bod{
+	background: rgb(0,133,32);
+}
+#begin{
+	color=rgb(255,1,51);
+	font-size:5em;
+}
+#navi {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+
+a {
+	font-size:3em;
+    display: block;
+    padding: 30px;
+    background-color: #dddd;
+}
+
+
+
+#block1{
+	background-image: url("img/carrothalwa.jpeg");
+	width:500px;
+	height:540px;
+	background-repeat: round;
+	color:blue;
+}
+.hl {
+	text-align: center;
+	color:blue;
+}
