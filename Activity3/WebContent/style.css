@@ -42,7 +42,7 @@ a {
 	width:200px;
 	height:210px;
 	background-repeat: round;
-	
+	float :left;
 }
 
 #block1 {
@@ -52,8 +52,8 @@ a {
 	height:210px;
 	background-repeat: round;
 	color:rgb(122,122,32);
-	
-    
+	float: left;
+    margin:20px;
 }
 .hl .hl1 {
 	text-align: center;
