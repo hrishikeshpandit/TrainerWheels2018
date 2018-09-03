@@ -2,9 +2,21 @@
  	border: 4px;
 	border-color:red;
 	border-style: dotted;
+	width:50%
+	padding-top:50px;
+	padding-left: 200px;
+	margin-left: -123px;
 }
 #second{
 	border:4px;
+	width:100%;
+	border: 4px;
+	border-color:red;
+	border-style: dotted;
+	padding-top:50px;
+	padding-left: 200px;
+	margin-left: 123px;
+	margin-top:-45px;
 }
 #first:FIRST-LETTER {
 	color:green;
@@ -29,4 +41,7 @@ div + p{
 
 #third > p{
 	color:pink;
+}
+a[target]{
+	background-color: red;
 }
