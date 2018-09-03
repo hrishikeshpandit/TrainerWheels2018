@@ -1,0 +1,32 @@
+#first{
+ 	border: 4px;
+	border-color:red;
+	border-style: dotted;
+}
+#second{
+	border:4px;
+}
+#first:FIRST-LETTER {
+	color:green;
+}
+#para:FIRST-LETTER {
+	color:blue:
+}
+section>p{
+	color:rgb(23,34,123);
+     size:44px;
+}
+p~ul{
+	color:yellow;
+}
+*{
+	size: 39px;
+}
+
+div + p{
+	color:brown;
+}
+
+#third > p{
+	color:pink;
+}
