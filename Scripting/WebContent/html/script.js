@@ -109,6 +109,28 @@ function shoppingCart(){
 			console.log(val);
 		}
 		alert("Your Total is "+val+" rupees");
+	}}
+ function curday(sp){
+		today = new Date();
+		var dd =today.getDate() ;
+		var mm =today.getMonth() ; 
+		var yyyy =today.getFullYear() ;
+		if(dd<=9){
+			dd='0'+dd;
+		}
+		if(mm<=9){
+			mm='0'+mm;
+		}
+		console.log(mm+sp+dd+sp+yyyy);
+
+		};
+
+	function stringOps(){
+		var string1="Bisibelebath";
+		var str1=string1.substr(5,10);
+		console.log(str1);
+		console.log(str1.toUpperCase());
+		var num1=2345678;
+		console.log("the number is "+num1);
+		console.log(num1.toString());
 	}
-	cartel(cart1);
-}
