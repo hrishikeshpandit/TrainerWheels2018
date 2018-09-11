@@ -15,3 +15,14 @@ function doSomething2(){
 		console.log(" boutton 2");
 		
 }
+
+
+function quiz(){
+	alert("2"==2);
+	
+	var datjson=JSON.stringify(questions);
+	var  myJason =JSON.parse(datjson);
+	console.log(myJason);
+	//console.log(myJason);
+	
+}
