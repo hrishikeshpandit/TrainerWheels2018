@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body ng-app="firstModule">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
+<script type="text/javascript" src="angi.js"></script>
+<form name="RegForm">
+<div id="demo" ng-controller="modeCntrl" >
+UserId<input type="text" name="userid"  ng-blur="idVerify();" ng-model="uid">
+FirstNAme<input type="text" name="dirst">
+country<input type="text" name="country">
+<br/>
+<p >{{myWelcome}}</p>
+</div></form>
+
+</body>
+</html>
